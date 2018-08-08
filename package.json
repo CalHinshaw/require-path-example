@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "bsb -make-world && node_modules/mocha/bin/mocha --compilers js:babel-core/register ./web/static/**/*-test.js && jest",
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "sideEffects": false,
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "^4.0.0",
+    "reason-cli": "^3.2.0-linux"
+  }
+}

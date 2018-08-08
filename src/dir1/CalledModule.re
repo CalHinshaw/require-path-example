@@ -1,0 +1,1 @@
+[@bs.module "jsExternal"] external myFunction : unit => unit = "myFunction";
