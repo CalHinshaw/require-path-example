@@ -1,0 +1,1 @@
+let myFunction: unit => unit;
