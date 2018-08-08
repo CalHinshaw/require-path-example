@@ -1,1 +1,1 @@
-[@bs.module "../dir1/jsExternal"] external myFunction : unit => unit = "myFunction";
+[@bs.module "./jsExternal"] external myFunction : unit => unit = "myFunction";
